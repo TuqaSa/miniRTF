@@ -1,0 +1,26 @@
+# Hyperboloid Demo Scene
+# Beautiful hyperboloid showcase
+
+# Camera - angled view to see the shape better
+C 4,4,-8   -0.3,-0.3,1   70
+
+# Ambient lighting
+A 0.2   255,255,255
+
+# Main light source
+L 8,10,-5   0.7   255,255,255
+
+# Central red hyperboloid - classic hourglass shape
+hy 0,0,0   1.5   -2.5,2.5   255,50,50
+
+# Blue hyperboloid - narrower
+hy 4,0,3   0.8   -2,2   50,100,255
+
+# Green hyperboloid - wider and taller
+hy -4,0,3   2.0   -3,3   50,255,100
+
+# Floor plane for reference
+pl 0,-3,0   0,1,0   150,150,150
+
+# Background sphere
+sp 0,0,15   3   100,100,200
