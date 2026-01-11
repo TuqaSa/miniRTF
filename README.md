@@ -343,7 +343,7 @@ miniRT/
 ## 👥 Authors
 
 - Razan Srour (@rsrour)
-- Tbaniatt (Contributor)
+- Tuqa Saeed (@tsaeed)
 
 ## 📄 License
 
