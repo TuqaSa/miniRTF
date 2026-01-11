@@ -1,3 +1,5 @@
+Great! Now let's update your README to showcase those rendered scenes. Here's the updated README with a Gallery section:
+
 # miniRT
 
 A ray tracer implementation in C using the MiniLibX graphics library. This project renders 3D scenes by tracing rays of light through a virtual camera, simulating realistic lighting, shadows, and geometric shapes.
@@ -5,6 +7,7 @@ A ray tracer implementation in C using the MiniLibX graphics library. This proje
 ## 📋 Table of Contents
 
 - [Overview](#overview)
+- [Gallery](#gallery)
 - [Features](#features)
 - [Technologies](#technologies)
 - [Installation](#installation)
@@ -23,6 +26,99 @@ The project implements the ray tracing algorithm from scratch, handling:
 - Phong reflection model for realistic lighting
 - Shadow casting with multiple light sources
 - Camera transformations and perspective projection
+
+## 🖼️ Gallery
+
+### Featured Renders
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="renders/test_rotx.rt.png" width="250" alt="Scene 1"/><br/>
+      <sub><b>Complex Scene with Multiple Shapes</b></sub><br/>
+      <sub>Demonstrates spheres, cylinders, and lighting</sub>
+    </td>
+    <td align="center">
+      <img src="renders/inside_cube.rt.png" width="250" alt="Scene 2"/><br/>
+      <sub><b>Interior Scene</b></sub><br/>
+      <sub>Enclosed space with shadow casting</sub>
+    </td>
+    <td align="center">
+      <img src="renders/chekerborad0.rt.png" width="250" alt="Scene 3"/><br/>
+      <sub><b>Material Patterns</b></sub><br/>
+      <sub>Checkerboard textures on multiple objects</sub>
+    </td>
+  </tr>
+</table>
+
+### Lighting Effects
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="renders/specular.png" width="250" alt="Specular"/><br/>
+      <sub><b>Specular Highlights</b></sub><br/>
+      <sub>Phong reflection model demonstration</sub>
+    </td>
+    <td align="center">
+      <img src="renders/shadows.png" width="250" alt="Shadows"/><br/>
+      <sub><b>Shadow Rendering</b></sub><br/>
+      <sub>Multiple light sources with hard shadows</sub>
+    </td>
+    <td align="center">
+      <img src="renders/ambient.png" width="250" alt="Ambient"/><br/>
+      <sub><b>Ambient + Diffuse Lighting</b></sub><br/>
+      <sub>Soft ambient with directional diffuse</sub>
+    </td>
+  </tr>
+</table>
+
+### Geometric Shapes
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="renders/spheres.png" width="200" alt="Spheres"/><br/>
+      <sub><b>Spheres</b></sub>
+    </td>
+    <td align="center">
+      <img src="renders/cylinders.png" width="200" alt="Cylinders"/><br/>
+      <sub><b>Cylinders</b></sub>
+    </td>
+    <td align="center">
+      <img src="renders/planes.png" width="200" alt="Planes"/><br/>
+      <sub><b>Planes</b></sub>
+    </td>
+    <td align="center">
+      <img src="renders/cones.png" width="200" alt="Cones"/><br/>
+      <sub><b>Cones (Bonus)</b></sub>
+    </td>
+  </tr>
+</table>
+
+### Bonus Features
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="renders/hyperboloid1.png" width="250" alt="Hyperboloid 1"/><br/>
+      <sub><b>Single Hyperboloid</b></sub><br/>
+      <sub>Second-degree surface rendering</sub>
+    </td>
+    <td align="center">
+      <img src="renders/hyperboloid_gallery.png" width="250" alt="Hyperboloid Gallery"/><br/>
+      <sub><b>Hyperboloid Gallery</b></sub><br/>
+      <sub>Multiple hyperboloids with varied parameters</sub>
+    </td>
+    <td align="center">
+      <img src="renders/checkerboard.png" width="250" alt="Checkerboard"/><br/>
+      <sub><b>Checkerboard Pattern</b></sub><br/>
+      <sub>Procedural texture mapping</sub>
+    </td>
+  </tr>
+</table>
+
+*All images rendered at 700x700 resolution*
 
 ## ✨ Features
 
@@ -215,6 +311,7 @@ miniRT/
 ├── libft/               # Custom C standard library
 ├── MLX42/               # Graphics library
 ├── test_files/          # Example scene files
+├── renders/             # Rendered scene images
 ├── Makefile
 └── minirt.h             # Main header file
 ```
@@ -238,14 +335,15 @@ miniRT/
 
 ## 📚 Resources
 
-- [The Ray Tracer Challenge by Jamis Buck
-
-- [42 School miniRT Subject](https://github.com/42Paris/minilibx-linux)
+- [The Ray Tracer Challenge](https://pragprog.com/titles/jbtracer/the-ray-tracer-challenge/) by Jamis Buck
+- [Ray Tracing in One Weekend](https://raytracing.github.io/) by Peter Shirley
+- [Scratchapixel - Ray Tracing](https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing)
+- [42 School MiniLibX Documentation](https://github.com/42Paris/minilibx-linux)
 
 ## 👥 Authors
 
 - Razan Srour (@rsrour)
-- Tuqa Saeed (@tsaeed)
+- Tbaniatt (Contributor)
 
 ## 📄 License
 
