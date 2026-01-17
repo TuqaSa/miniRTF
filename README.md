@@ -1,5 +1,3 @@
-Great! Now let's update your README to showcase those rendered scenes. Here's the updated README with a Gallery section:
-
 # miniRT
 
 A ray tracer implementation in C using the MiniLibX graphics library. This project renders 3D scenes by tracing rays of light through a virtual camera, simulating realistic lighting, shadows, and geometric shapes.
